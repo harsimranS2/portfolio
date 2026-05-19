@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <nav>
+    <div class="logo">Harsimran</div>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+
+  <section class="hero">
+
+    <div class="hero-text">
+      <h1>Hello, I'm <span>Harsimran Singh</span></h1>
+
+      <p>
+        Web Designer, Graphic Designer & Video Editor
+      </p>
+
+      <a href="#" class="btn">Hire Me</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/profile.jpg" alt="Profile Image">
+    </div>
+
+  </section>
+
+  <!-- About Section -->
+
+  <section class="about">
+
+    <h2>About Me</h2>
+
+    <p>
+      I create modern websites, social media creatives,
+      thumbnails, posters, and professional video edits.
+    </p>
+
+  </section>
+
+  <!-- Skills Section -->
+
+  <section class="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skill-box">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Photoshop</div>
+      <div class="skill">Premiere Pro</div>
+      <div class="skill">Figma</div>
+    </div>
+
+  </section>
+
+  <!-- Projects Section -->
+
+  <section class="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="">
+        <h3>Portfolio Website</h3>
+        <p>Modern responsive portfolio design.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="">
+        <h3>Thumbnail Design</h3>
+        <p>YouTube thumbnail collection.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="images/project3.jpg" alt="">
+        <h3>Video Editing</h3>
+        <p>Instagram reels editing showcase.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+
+  <section class="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>Email: your@email.com</p>
+
+    <a href="#" class="btn">Download Resume</a>
+
+  </section>
+
+</body>
+</html>
